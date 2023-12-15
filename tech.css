@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background:url(../cp/pex11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+background-color:red;
+color: white;
+display: flex;
+justify-content:space-between;
+align-items: center;
+position: sticky;
+cursor: pointer;
+top: 0;
+
+}
+.logo{
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-size: 20;
+    cursor: pointer;
+    text-shadow: 4px 4px black;
+
+}
+.navlink{
+    float: right;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+.navlink ul li{
+    display: inline-block;
+    padding-right: 30px;
+    cursor: pointer;
+    
+
+}
+.navlink ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17;
+    cursor: pointer;
+text-transform: uppercase;
+
+}
+.navborder::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+    display: block;
+
+
+}
+.navborder:hover::after{
+    width: 100%;
+
+}
+.container{
+    background-image: linear-gradient(to top,rgba(145,146,122,0.62),rgba(145,146,122,0.2));
+    background: url(../cp/pix1.jpg);
+    background-size: cover;
+    font-size: medium;
+    font-weight: 800;
+    background-repeat:no-repeat;
+    height: 100%;
+    height: 695px;
+text-align: center;
+
+}
+.container h1{
+    padding-top: 120px;
+    color: white;
+    font-size: 60;  
+    text-shadow: 2px 4px black;
+}
+.container p{
+    color: white;
+    padding-top: 50px;
+
+}
+.order{
+    background-color: crimson;
+    padding: 15px 10px;
+    border: none;
+    font-size: 15;
+    border-radius: 4px;
+    margin-top: 60px;
+    transition: 0.2s ease;
+}
+.order a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.order:hover{
+    padding: 20px 10px;
+}
+.container2{
+    margin: 30px 20px;
+
+    cursor: pointer;
+
+}
+.pizza{
+    padding: 30px;
+    margin: 10 0 0 40px;
+
+}
+
+.container2 h1{
+    color: crimson;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 60px;
+    text-shadow: 2px 2px black;
+
+}
+
+.container2 h3{
+color: crimson;
+
+
+}
+
+
+.Aboutmyfood{
+    display: flex;
+    float: right;
+    line-height: 50px;
+    margin: 50px 10px 0 0
+
+ 
+    
+}
+.container3{
+    
+    margin: 30px 20px;
+    padding-bottom: 150px;
+}
+.container3 h1{
+    text-align: center;
+    color: crimson;
+    margin-top: 15px;
+    text-shadow: 2px 4px black;
+}
+.Combos{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 88px;
+
+}
+.Combos h2{
+    color: crimson;
+    
+
+}
+.Combos1,.Combos2,.Combos3{
+    
+    padding: 20px 30px;
+    text-align: center;
+}
+.Combos ul li{
+    list-style-type: none;
+    line-height: 40px;
+
+}
+.buy{
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color:crimson;
+    transition: 0.2s;
+    
+
+}
+.buy:hover{
+    background-color:orangered;
+
+}
+.buy a{
+    text-decoration: none;
+    color: white;
+}
+.Contact{
+    
+    margin: 30px 20px;
+    text-align: center;
+    
+
+
+}
+.Contact h1{
+    color: crimson;
+    padding-top: 30px;
+    text-shadow: 2px 2px black;
+}
+.form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    
+}
+input[type=text]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+
+}
+
+input[type=email]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+    
+}
+
+input[type=number]{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 3px;
+    
+}
+.form textarea{
+    margin: 10px auto 30px auto;
+    width: 400px;
+    height: 250px;
+    padding: 7px 5px;
+    border: 2px solid crimson;
+    border-radius: 4px;
+
+}
+.Query{
+padding: 10px;
+background-color: crimson;
+border: none;
+transition: 0.2 s ease;
+}
+.Query a{
+    text-decoration: none;
+    color: white;
+
+}
+.Query:hover{
+    background-color:rgb(124, 12, 34);
+}
+.footer{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(255, 6, 55);
+    justify-content: space-around;
+}
+.footer1 h1,.footer2 h2,.footer3 h2,.credit p{
+    color: white;
+    text-shadow: 2px 2px black;
+
+
+}
+.footer2 ul,.footer3 ul{
+    margin-top: 20px;
+    list-style-type: none;
+    cursor: pointer;
+
+}
+.footer2 ul li a,.footer3 ul li a{
+color: white;
+text-decoration: none;
+transition: 0.2s ease;
+cursor: pointer;
+
+
+}
+
+.footer2 ul li a:hover.footer3 ul li a:hover{
+    color: rgb(203, 191, 191);
+    cursor: pointer;
+}
+
+
+
+
+
+
